@@ -10,7 +10,7 @@ Bordeaux · [LinkedIn](https://linkedin.com/in/arnaud-gomes) · [Root Me](https:
 
 ### [c-secure-build](https://github.com/Arnaud1404/c-secure-build)
 
-Un interpréteur de commandes POSIX en C, quatre défauts injectés à dessein, et une chaîne qui refuse tout commit tant qu'ils ne sont pas corrigés.
+Un petit interpréteur de commandes en C pour Linux, quatre défauts injectés à dessein, et une chaîne qui refuse tout commit tant qu'ils ne sont pas corrigés.
 
 - Flawfinder et Semgrep lisent le code, Valgrind et AddressSanitizer/UBSan le regardent tourner. Toute la chaîne s'exécute dans une image Docker épinglée par digest, avec apt qui lit une archive Ubuntu datée, sous Docker comme sous Podman sans root, pour qu'une autre machine rende le même verdict dans un an.
 - Entre les étiquettes `v2-vulnerable` et `v2-patched`, les signalements de sévérité error passent de 4 à 0.

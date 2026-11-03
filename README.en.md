@@ -10,7 +10,7 @@ Bordeaux, France · [LinkedIn](https://linkedin.com/in/arnaud-gomes) · [Root Me
 
 ### [c-secure-build](https://github.com/Arnaud1404/c-secure-build)
 
-A POSIX shell in C with four planted bugs, and a pipeline that refuses every commit until they are fixed.
+A small command REPL in C for Linux with four planted bugs, and a pipeline that refuses every commit until they are fixed.
 
 - Flawfinder and Semgrep scan the source, Valgrind and AddressSanitizer/UBSan watch it run. The whole gate runs in a Docker image pinned by digest, with apt reading a dated Ubuntu snapshot, under Docker or rootless Podman, so another machine gets the same verdict a year from now.
 - Between the `v2-vulnerable` and `v2-patched` tags, error-severity findings drop from 4 to 0.
